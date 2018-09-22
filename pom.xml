@@ -389,7 +389,7 @@
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 		<maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
 		<servlet-api.version>3.0.1</servlet-api.version>
-		<shiro-biz.version>1.0.4-SNAPSHOT</shiro-biz.version>
+		<shiro.version>1.4.0</shiro.version>
 		<slf4j.version>1.7.21</slf4j.version>
 	</properties>
 
@@ -423,26 +423,18 @@
 				<artifactId>slf4j-api</artifactId>
 				<version>${slf4j.version}</version>
 			</dependency>
-
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-lang3</artifactId>
-				<version>${commons-lang3.version}</version>
-			</dependency>
 			
+			<dependency>
+	            <groupId>org.apache.shiro</groupId>
+	            <artifactId>shiro-core</artifactId>
+	            <version>${shiro.version}</version>
+	        </dependency>
+	        
 			<!-- https://mvnrepository.com/artifact/net.oschina.j2cache/j2cache-core -->
 			<dependency>
 			    <groupId>net.oschina.j2cache</groupId>
 			    <artifactId>j2cache-core</artifactId>
 			    <version>${j2cache.version}</version>
-			</dependency>
-
-			<!-- ###################### Shiro ###################### -->
-
-			<dependency>
-			    <groupId>com.github.vindell</groupId>
-				<artifactId>shiro-biz</artifactId>
-				<version>${shiro-biz.version}</version>
 			</dependency>
 			
 		</dependencies>
@@ -466,18 +458,14 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-		</dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+        </dependency>
 		<dependency>
 		    <groupId>net.oschina.j2cache</groupId>
 		    <artifactId>j2cache-core</artifactId>
 		</dependency>
-		<dependency>
-		    <groupId>com.github.vindell</groupId>
-			<artifactId>shiro-biz</artifactId>
-		</dependency>
-
+		
 	</dependencies>
 
 </project>
