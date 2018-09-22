@@ -53,6 +53,9 @@ public class J2CacheManager extends AbstractCacheManager implements Initializabl
 
 	@Override
 	protected J2CacheWrapper<Object> createCache(String name) throws CacheException {
+		if (channel == null) {
+			channel = J2Cache.getChannel();
+		}
 		return new J2CacheWrapper<Object>(name, channel);
 	}
 
