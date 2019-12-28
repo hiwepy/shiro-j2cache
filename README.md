@@ -6,7 +6,7 @@ Shiro Extension Whith J2Cache
 
 ``` xml
 <dependency>
-	<groupId>com.github.vindell</groupId>
+	<groupId>com.github.hiwepy</groupId>
 	<artifactId>shiro-j2cache</artifactId>
 	<version>${project.version}</version>
 </dependency>
