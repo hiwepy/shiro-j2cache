@@ -8,6 +8,6 @@ Shiro Extension Whith J2Cache
 <dependency>
 	<groupId>com.github.hiwepy</groupId>
 	<artifactId>shiro-j2cache</artifactId>
-	<version>${project.version}</version>
+	<version>1.0.2.RELEASE</version>
 </dependency>
 ```
