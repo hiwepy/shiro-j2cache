@@ -5,7 +5,7 @@
 
 	<groupId>com.github.hiwepy</groupId>
 	<artifactId>shiro-j2cache</artifactId>
-	<version>1.0.3.RELEASE</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<description>Shiro Extension Whith J2cache</description>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/hiwepy/${project.artifactId}</url>
