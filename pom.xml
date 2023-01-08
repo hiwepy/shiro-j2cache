@@ -151,9 +151,7 @@
 					<artifactId>maven-source-plugin</artifactId>
 					<version>${maven-source-plugin.version}</version>
 					<configuration>
-						<testFailureIgnore>true</testFailureIgnore>
 						<attach>true</attach>
-						<encoding>${project.build.sourceEncoding}</encoding>
 					</configuration>
 					<executions>
 						<execution>
@@ -369,7 +367,7 @@
 
 <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<j2cache.version>2.8.2-release</j2cache.version>
+		<j2cache.version>2.8.5-release</j2cache.version>
 		<junit.version>4.12</junit.version>
 		<java.version>1.7</java.version>
 		<maven.version>3.0</maven.version>
@@ -388,8 +386,8 @@
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 		<maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
 		<servlet-api.version>3.0.1</servlet-api.version>
-		<shiro.version>1.6.0</shiro.version>
-		<slf4j.version>1.7.26</slf4j.version>
+		<shiro.version>1.10.1</shiro.version>
+		<slf4j.version>2.0.6</slf4j.version>
 	</properties>
 
 	<dependencyManagement>
