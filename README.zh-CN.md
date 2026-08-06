@@ -2,8 +2,6 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-![Java](https://img.shields.io/badge/Java-8-orange) ![License](https://img.shields.io/badge/License-Apache%202.0-blue)
-
 Shiro 的 J2Cache 扩展——基于 [J2Cache](https://gitee.com/ld/J2Cache)（两级 Java 缓存框架）实现 Shiro `CacheManager` 与缓存型会话 DAO，使 Shiro 的缓存与会话缓存可以共用 J2Cache 通道。
 
 ## 目录
