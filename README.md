@@ -1,6 +1,6 @@
 # shiro-j2cache
 
-![Java](https://img.shields.io/badge/Java-17-orange) ![License](https://img.shields.io/badge/License-Apache%202.0-blue)
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
 Shiro extension with J2Cache — a `CacheManager` and a caching session DAO on top of [J2Cache](https://gitee.com/ld/J2Cache) (the two-level Java caching framework), so that Shiro's cache and session caching can share the J2Cache channel.
 
