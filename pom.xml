@@ -191,8 +191,8 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven-surefire-plugin.vertsion}</version>
                     <configuration>
-                        <skip>true</skip>
-                        <skipTests>true</skipTests>
+                        <skip>false</skip>
+                        <skipTests>false</skipTests>
                         <forkMode>once</forkMode>
                         <argLine>-Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=256m
 							-Dfile.encoding=UTF-8</argLine>
@@ -348,6 +348,7 @@
                 <lombok.version>1.18.46</lombok.version>
                 <additionalparam>-Xdoclint:none</additionalparam>
                 <maven-jacoco-plugin.version>0.8.15</maven-jacoco-plugin.version>
+        <maven-central-publishing-plugin.version>0.11.0</maven-central-publishing-plugin.version>
             </properties>
         </profile>
         <!-- 发布到 Maven Central Portal：mvn -Prelease deploy（GPG 签名 + 源码 + Javadoc + Central 发布插件） -->
@@ -511,6 +512,7 @@
         <shiro.version>1.13.0</shiro.version>
         <!-- Dependency versions -->
         <slf4j.version>2.0.18</slf4j.version>
+        <maven-central-publishing-plugin.version>0.11.0</maven-central-publishing-plugin.version>
     </properties>
 
     <!-- 依赖版本统一管理（dependencyManagement） -->
