@@ -14,6 +14,9 @@
  * the License.
  */
 package org.apache.shiro.cache.j2cache;
+/**
+ * @author <a href="https://github.com/loong10k">@Loong Wan</a>
+ */
 
 import java.io.Serializable;
 
