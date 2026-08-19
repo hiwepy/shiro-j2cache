@@ -36,7 +36,7 @@
     </developers>
     <properties>
         <!-- ═══ 第一段: 基础属性（自然排序）═══ -->
-        <java.version>8</java.version>
+        <java.version>1.8</java.version>
         <maven.compiler.release>${java.version}</maven.compiler.release>
         <maven.version>3.9.16</maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
